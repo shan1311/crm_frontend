@@ -122,7 +122,7 @@ function EmployeeDetailsCards({ data }) {
         return;
       }
     
-      fetch(`https://crm-backend-g73o.onrender.com`, {
+      fetch(`https://crm-backend-g73o.onrender.com/api/task/tasks`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
